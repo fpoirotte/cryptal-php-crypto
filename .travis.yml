@@ -28,7 +28,7 @@ notifications:
     irc: "irc.iiens.net#Clicky"
 
 before_script:
-    - pecl install crypto-beta
+    - pecl install crypto-devel
     - rm -rf vendor/
     - rm composer.lock
     - composer self-update -n
