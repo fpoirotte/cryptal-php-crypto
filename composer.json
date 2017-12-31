@@ -19,7 +19,7 @@
         "source": "https://github.com/fpoirotte/cryptal-php-crypto"
     },
     "require": {
-        "php": ">=5.3.0 <7.2.0",
+        "php": ">=5.3.0 <7.3.0",
         "ext-crypto": "*",
         "fpoirotte/cryptal": "dev-master"
     },
@@ -29,7 +29,7 @@
     "require-dev": {
         "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*",
-        "erebot/buildenv": "^1.4.0"
+        "erebot/buildenv": "^1.5.0"
     },
     "autoload": {
         "psr-4": {
