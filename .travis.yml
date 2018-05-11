@@ -27,7 +27,11 @@ addons:
 
 notifications:
     email: false
-    irc: "irc.iiens.net#Clicky"
+    irc:
+      channels:
+        - "irc.iiens.net#Clicky"
+      on_success: change
+      on_failure: always
 
 before_script:
     - pecl install crypto-devel
